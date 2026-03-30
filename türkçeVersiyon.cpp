@@ -1,3 +1,5 @@
+//KOD GÜNCELLEMELERİ: hata vermemesi için değişkenlerden türkçe karakterler kaldırıldı
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -15,13 +17,13 @@ int main() {
     cout << endl;
 
     if (zorluk == "kolay") {
-        sayı = rand() % 100 + 1;
+        sayi = rand() % 100 + 1;
     }
     else if (zorluk == "orta") {
-        sayı = rand() % 200 + 1;
+        sayi = rand() % 200 + 1;
     }
     else if (zorluk == "zor") {
-        sayı = rand() % 300 + 1;
+        sayi = rand() % 300 + 1;
     }
     while (true) {
         cout << "sayıyı girin: ";
